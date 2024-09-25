@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝐒𝐂𝟐 𝐁𝐎𝐓</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        .login-box {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ddd;
+        }
+        .hidden-buttons {
+            display: none;
+        }
+        .menu-buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-box">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Username"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <button type="button" onclick="login()">𝐀𝐂𝐂𝐄𝐒? 𝐔𝐒𝐄𝐑 𝐃𝐀𝐍 𝐏𝐖? 🗿</button>
+    </form>
+</div>
+
+<div class="menu-buttons hidden-buttons" id="menuButtons">
+    <h2>Menu</h2>
+    <button onclick="openLink('https://www.mediafire.com/file/1rltb9at8fw0cgv/WA+IMMUNE+FINIXS666+@UPDATE+SC+VIP+FREE.zip/file')">𝐖𝐀 𝐈𝐌𝐌𝐔𝐍𝐄</button>
+    <button onclick="openLink('https://www.mediafire.com/file/z1e4iv726v3dnmj/SPIDER_V7_SHARED_%2540UPDATE_SC_VIP_FREE.zip/file')">𝐒𝐏𝐈𝐃𝐄𝐑 𝐕𝟕</button>
+    <button onclick="openLink('https://www.mediafire.com/file/7mbgyqoabsw2llj/WhatsApp_Blash_V9.apk.zip/file')">𝐖𝐀 𝐁𝐋𝐀𝐒𝐇</button>
+    <button onclick="openLink('https://www.mediafire.com/file/khrakqv4nidaqdu/ZENO-V4.zip/file')">𝐙𝐄𝐍𝐎 𝐕𝟒</button>
+    <button onclick="openLink('https://www.mediafire.com/file/wpmzod1fxu82xeg/script_paktzy.zip/file')">𝐬𝐜 𝐭𝐳𝐲</button>
+    <button onclick="openLink('https://www.mediafire.com/file/pfisa5rf0z2x691/%25E1%25A4%25AA%25E1%25A4%25A3%25E1%25AA%25B0%25F0%259D%2590%2595%25CD%25A2%25F0%259D%2590%259A%25E1%25A4%25A1%25F0%259D%2590%25AB%25F0%259D%2590%2593%25CD%25A2%25E1%25A4%25A1%25F0%259D%2590%25B1%25E1%25A4%25A1%25F0%259D%2590%2592%25E1%25A4%25B3_%25F0%259D%2590%2595%25F0%259D%259F%2597.zip/file')">𝐯𝐚𝐫𝐞𝐥 𝐕𝟗</button>
+    <button onclick="openLink('https://www.mediafire.com/file/az98bb1s8v4uv2g/%F0%9F%92%80%F0%9D%99%83%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%A2%F0%9D%99%A4%F0%9D%99%99%F0%9D%98%BE%F0%9D%99%9E%F0%9D%99%A5%F0%9D%99%A4%F0%9D%99%A0_%F0%9D%99%AB%F0%9D%9F%AF_%F0%9D%99%A3%F0%9D%99%9A%F0%9D%99%AC_%F0%9D%99%99%F0%9D%99%9A%F0%9D%99%A1%F0%9D%99%9A%F0%9D%99%A9%F0%9D%99%9A_%F0%9D%99%A8%F0%9D%99%9A%F0%9D%99%98%F0%9D%99%AA%F0%9D%99%A7%F0%9D%99%9E%F0%9D%99%A9%F0%9D%99%AE.7z/file')">𝐇𝐚𝐧𝐝 𝐂𝐢𝐩𝐨𝐤</button>
+</div>
+
+<script>
+    function login() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        
+        if (username === 'null' && password === '1') {
+            document.querySelector('.login-box').style.display = 'none';
+            document.getElementById('menuButtons').style.display = 'block';
+        } else {
+            alert('Invalid username or password');
+        }
+    }
+
+    function openLink(url) {
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
+</html>
